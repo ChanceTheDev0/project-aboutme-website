@@ -36,7 +36,7 @@ body {
   }
   /*BANNERS*/
   h1.transparent {
-    font-family: Florence, cursive;
+    font-family: system-ui;
     font-size:50px;
     text-shadow: 1px 1px 1px #1c1d1c, -3px 6px 5px #050505;
     text-align: center;
