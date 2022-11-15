@@ -1,0 +1,106 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    letter-spacing: 1px;
+    background-color:#24292b;
+  }
+  /*TEXT BODY/containers*/
+  article.cursive {
+    line-height: 1.5;
+    font-family: system-ui;
+    font-size:22px;
+    color:#bbcfd1;
+    padding: 2em;    
+    border: 5px solid rgb(0, 0, 0);
+    height: 50%;
+    text-shadow: 1px 1px 1px #1c1d1c, -3px 6px 5px #050505;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #1c1d1c, -3px 6px 5px #050505;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  section.skills2 {
+    padding: 2px; 
+    height: 50%;
+  }
+  section.skills {
+    float: right;
+    padding: 2px; 
+    height: 50%;
+  }
+  .flexcon {
+    gap: 8%;
+    display: flex;
+  }
+  /*BANNERS*/
+  h1.transparent {
+    font-family: Florence, cursive;
+    font-size:50px;
+    text-shadow: 1px 1px 1px #1c1d1c, -3px 6px 5px #050505;
+    text-align: center;
+    color:#bbcfd1;
+    background: linear-gradient(90deg, 
+    rgba(255, 255, 255, 0) 0%, 
+    rgba(255, 255, 255, 0.2) 25%, 
+    rgba(255, 255, 255, 0.2) 75%, 
+    rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+    inset 0 0 1px rgba(255, 255, 255, 0.6);
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  h2.aboutme {
+    font-size:35px;
+    text-align:center;
+    color:#bbcfd1;
+    background: linear-gradient(90deg, 
+    rgba(255, 255, 255, 0) 0%, 
+    rgba(255, 255, 255, 0.2) 25%, 
+    rgba(255, 255, 255, 0.2) 75%, 
+    rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+    inset 0 0 1px rgba(255, 255, 255, 0.6);
+    width: 80%;
+    height: 50%;
+  }
+  h3.edu {
+    font-size:35px;
+    text-align:center;
+    color:#bbcfd1;
+    background: linear-gradient(90deg, 
+    rgba(255, 255, 255, 0) 0%, 
+    rgba(255, 255, 255, 0.2) 25%, 
+    rgba(255, 255, 255, 0.2) 75%, 
+    rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+    inset 0 0 1px rgba(255, 255, 255, 0.6);
+    width: 80%;
+    height: 50%;
+  }
+  /*PICTURES*/
+  .mepic {
+    float:right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    box-shadow: 1px 1px 1px #1c1d1c, -3px 6px 5px #050505;
+  }
+  .certpics {
+    padding: 1px;
+    margin-top:  10px;
+    box-shadow: 1px 1px 1px #1c1d1c, -3px 6px 5px #050505;
+  }             
+  .img-hover-zoom {  /*certs*/
+    height: 300px; 
+    width: 25%;
+    overflow: visible; 
+  }
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  .img-hover-zoom:hover img {
+    transform: scale(1.4);
+  }                        
+  
