@@ -5,7 +5,7 @@ body {
     background-color:#24292b;
   }
   /*THEME BUTTON*/
-  .theme {
+  #theme {
     display: flex;
     height: auto;
     width: auto;
@@ -23,7 +23,12 @@ body {
     display: flex;
     justify-content: flex-end;
   }
-
+  .light-theme {
+    background-color: #fff;
+  }
+  .dark-theme {
+    background-color: #24292b; 
+  }
   /*TEXT BODY/containers*/
   article.cursive {
     line-height: 1.5;
