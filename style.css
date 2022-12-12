@@ -4,6 +4,26 @@ body {
     letter-spacing: 1px;
     background-color:#24292b;
   }
+  /*THEME BUTTON*/
+  .theme {
+    display: flex;
+    height: auto;
+    width: auto;
+    background-color: rgba(163, 163, 168, 0.589);
+    border: 2.5px solid #000000;
+    border-radius: 6px;
+    padding: 2px;
+    color: black;
+    box-shadow: 1px 1px 1px #1c1d1c, -3px 6px 5px #050505;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .theme-wrapper {
+    margin-right: 80px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
   /*TEXT BODY/containers*/
   article.cursive {
     line-height: 1.5;
