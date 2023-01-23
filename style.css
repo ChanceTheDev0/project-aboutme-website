@@ -6,6 +6,7 @@ body {
   color:#bbcfd1;
   text-shadow: 1px 1px 1px #1c1d1c, -3px 6px 5px #050505;
 }
+
 /*THEME TOGGLE*/
 #theme {
   display: flex;
@@ -20,16 +21,19 @@ body {
   font-weight: bold;
   font-size: 18px;
 }
+
 .themebttn-wrapper {
   margin-right: 80px;
   display: flex;
   justify-content: flex-end;
 }
+
 .light-theme {
   background-color: #fff;
   color: #000000;
   text-shadow: none;
 }
+
 .light-theme .banner1 {
   background: linear-gradient(90deg, 
   rgba(189, 189, 189, 1) 0%, 
@@ -39,6 +43,7 @@ body {
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
   inset 0 0 1px rgba(255, 255, 255, 0.6);
 }
+
 .light-theme .banner23 {
   background: linear-gradient(90deg, 
   rgba(189, 189, 189, 1) 0%, 
@@ -48,6 +53,7 @@ body {
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
   inset 0 0 1px rgba(255, 255, 255, 0.6);
 }
+
 .dark-theme {
   background-color: #24292b; 
   color: #bbcfd1;
@@ -64,20 +70,24 @@ article.cursive {
   margin-bottom: 40px;
   margin-top: 40px;
 }
+
 section.skills2 {
   padding: 2px; 
   height: 50%;
 }
+
 section.skills {
   float: right;
   padding: 2px; 
   height: 50%;
 }
+
 .flexcon {
   gap: 8%;
   display: flex;
   justify-content: center;
 }
+
 /*BANNERS*/
 .banner1 {
   font-family: system-ui;
@@ -89,9 +99,9 @@ section.skills {
   rgba(255, 255, 255, 0.2) 75%, 
   rgba(255, 255, 255, 0) 100%);
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
-  inset 0 0 1px rgba(255, 255, 255, 0.6);
-    
+  inset 0 0 1px rgba(255, 255, 255, 0.6); 
 }
+
 .banner23 {
   font-size:35px;
   text-align:center;
@@ -103,6 +113,7 @@ section.skills {
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
   inset 0 0 1px rgba(255, 255, 255, 0.6); 
 }
+
 /*PICTURES*/
 .mepic {
   float:right;
@@ -111,19 +122,23 @@ section.skills {
   margin-right: 10px;
   box-shadow: 1px 1px 1px #1c1d1c, -3px 6px 5px #050505;
 }
+
 .certpics {
   padding: 1px;
   margin-top:  10px;
   box-shadow: 1px 1px 1px #1c1d1c, -3px 6px 5px #050505;
-}             
+}    
+
 .img-hover-zoom {  /*CERTS*/
   height: 300px; 
   width: 25%;
   overflow: visible; 
 }
+
 .img-hover-zoom img {
   transition: transform .5s ease;
 }
+
 .img-hover-zoom:hover img {
   transform: scale(1.4);
 }                        
