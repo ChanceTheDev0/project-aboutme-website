@@ -6,7 +6,7 @@ body {
   color:#bbcfd1;
   text-shadow: 1px 1px 1px #1c1d1c, -3px 6px 5px #050505;
 }
-/*THEME BUTTON*/
+/*THEME TOGGLE*/
 #theme {
   display: flex;
   height: auto;
@@ -53,7 +53,7 @@ body {
   color: #bbcfd1;
 }
 
-/*TEXT BODY/containers*/
+/*TEXT BODY/CONTAINERS*/
 article.cursive {
   line-height: 1.5;
   font-family: system-ui;
@@ -116,7 +116,7 @@ section.skills {
   margin-top:  10px;
   box-shadow: 1px 1px 1px #1c1d1c, -3px 6px 5px #050505;
 }             
-.img-hover-zoom {  /*certs*/
+.img-hover-zoom {  /*CERTS*/
   height: 300px; 
   width: 25%;
   overflow: visible; 
