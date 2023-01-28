@@ -7,24 +7,24 @@ body {
   text-shadow: 1px 1px 1px #1c1d1c, -3px 6px 5px #050505;
 }
 
-/*THEME TOGGLE*/
+/*BUTTONS*/
 button {
   display: flex;
-  height: 30px;
+  height: 26px;
   width: auto;
-  background-color: rgb(235, 235, 235);
-  border: 3px solid #000000;
-  border-radius: 6px;
+  background-color: rgb(56, 121, 241);
+  border: 1px solid #ffffff;
+  border-radius: 8px;
   padding: 2px;
-  color: black;
-  box-shadow: 1px 1px 1px #1c1d1c, -3px 6px 5px #050505;
-  font-weight: bold;
+  color: rgb(255, 255, 255);
+  box-shadow: .2px .2px .2px #1c1d1c, -1px 2.5px 2px #050505;
+  letter-spacing: 1px;
   font-size: 18px;
   margin-right: 1rem;
 }
 
+/*THEME BUTTON FUNCTIONALITY*/
 .themebttn-wrapper {
-  margin-right: 80px;
   display: flex;
   justify-content: flex-end;
 }
@@ -101,6 +101,7 @@ section.skills {
   rgba(255, 255, 255, 0) 100%);
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
   inset 0 0 1px rgba(255, 255, 255, 0.6); 
+  margin-top: 20px;
 }
 
 .banner23 {
