@@ -10,7 +10,7 @@ body {
 /*THEME TOGGLE*/
 button {
   display: flex;
-  height: auto;
+  height: 30px;
   width: auto;
   background-color: rgb(235, 235, 235);
   border: 3px solid #000000;
@@ -20,6 +20,7 @@ button {
   box-shadow: 1px 1px 1px #1c1d1c, -3px 6px 5px #050505;
   font-weight: bold;
   font-size: 18px;
+  margin-right: 1rem;
 }
 
 .themebttn-wrapper {
