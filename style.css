@@ -8,7 +8,7 @@ body {
 }
 
 /*THEME TOGGLE*/
-#theme {
+button {
   display: flex;
   height: auto;
   width: auto;
