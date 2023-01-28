@@ -12,11 +12,11 @@ button {
   display: flex;
   height: 26px;
   width: auto;
-  background-color: rgb(56, 121, 241);
-  border: 1px solid #ffffff;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #000000;
   border-radius: 8px;
   padding: 2px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   box-shadow: .2px .2px .2px #1c1d1c, -1px 2.5px 2px #050505;
   letter-spacing: 1px;
   font-size: 18px;
@@ -61,7 +61,7 @@ button {
 }
 
 /*TEXT BODY/CONTAINERS*/
-article.cursive {
+article {
   line-height: 1.5;
   font-family: system-ui;
   font-size:22px;

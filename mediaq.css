@@ -5,40 +5,51 @@
         margin: 0%;
         overflow-x: hidden;
     }
-    .transparent {
-        display: flex;
-        width: 90%;
-        justify-content: center;
+   
+    button {
+        margin-top: 20px;
+        font-size: 1.7rem;
+        height: auto;
     }
-    .aboutme {
-        display: flex;
-        justify-content: center;
-        width: 90%;
-    }  
-    .edu {
-        display: flex;
-        justify-content: center;
+
+    article {
+        font-size: 2rem;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
-    .certpics {
-        display: flex;
-    }
+
     .flexcon {
         display: flex;
         gap: 2%;
         justify-content: center;
     }
-    #theme {
-        margin-top: 14px;
+
+    .banner1 {
+        font-size: 4rem;   
+        margin-bottom: 0px; 
     }
-    .img-hover-zoom {  /*certs*/ /*no hover transition on mobile*/
+    .banner23 {
+        font-size: 3.5rem;
+        margin-top: 0px;
+    }
+
+    .img-hover-zoom {  /*CERTS*/ /*no hover transition on mobile*/
         height: 300px; 
         width: 25%;
         overflow: visible; 
       }
+
       .img-hover-zoom img {
         transition: none;
       }
+
       .img-hover-zoom:hover img {
         transform: none;
-      }       
+      }   
+    .certpics {
+        display: flex;
+    }  /*CERTS*/
 }
