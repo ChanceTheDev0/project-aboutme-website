@@ -65,19 +65,19 @@ article {
   line-height: 1.5;
   font-family: system-ui;
   font-size:22px;
-  padding: 2em;    
+  padding: .5em;    
   margin-right: 40px;
   margin-left: 40px;
   margin-bottom: 40px;
   margin-top: 40px;
 }
 
-section.skills2 {
+.skills2 {
   padding: 2px; 
   height: 50%;
 }
 
-section.skills {
+.skills {
   float: right;
   padding: 2px; 
   height: 50%;
