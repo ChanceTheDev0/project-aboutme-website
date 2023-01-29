@@ -7,6 +7,8 @@ toggleButton.addEventListener('click', function() {
   if (body.classList.contains('dark-theme')) {
     body.classList.remove('dark-theme');
     body.classList.add('light-theme');
+  } else if (!body.classList.contains('dark-theme') && !body.classList.contains('light-theme')) {
+    body.classList.add('light-theme');
   }
   // Otherwise, remove the "light-theme" class and add the "dark-theme" class
   else {
@@ -14,3 +16,11 @@ toggleButton.addEventListener('click', function() {
     body.classList.add('dark-theme');
   }
 });
+
+function goToGithub() {
+  window.open('https://github.com/ChanceTheDev0');
+}
+
+function goToContact() {
+  window.location = 'contact.html';
+}
