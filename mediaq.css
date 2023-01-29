@@ -12,6 +12,12 @@
         height: auto;
     }
 
+    button:hover {
+        background-color: white;
+        border: 1px solid black;
+        color: black;   
+    }
+
     article {
         font-size: 2rem;
         margin-top: 0px;
