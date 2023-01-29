@@ -23,6 +23,13 @@ button {
   margin-right: 1rem;
 }
 
+button:hover {
+  background-color: #000000;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer
+}
+
 /*THEME BUTTON FUNCTIONALITY*/
 .themebttn-wrapper {
   display: flex;
