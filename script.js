@@ -21,6 +21,3 @@ function goToGithub() {
   window.open('https://github.com/ChanceTheDev0');
 }
 
-function goToContact() {
-  window.location = 'contact.html';
-}
