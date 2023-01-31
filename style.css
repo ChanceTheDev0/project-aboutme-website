@@ -152,11 +152,44 @@ article {
   transform: scale(1.4);
 }                        
  
-form {
+form {    /*CONTACT ME*/
   display: grid;
+  height: 45vh;
   font-size: 22px;
   justify-content: center;
-  align-items: center;
-  justify-items: center;
-  align-content: center;
+  justify-items: start;
+  margin: 3rem;
+}
+
+label {
+  padding: 3px;
+}
+
+.button {
+  display: flex;
+  height: 26px;
+  width: auto;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 2px;
+  color: rgb(0, 0, 0);
+  box-shadow: .2px .2px .2px #1c1d1c, -1px 2.5px 2px #050505;
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin-right: 1rem;
+}
+
+.button:hover {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  margin: 15px;
+  justify-content: center;
+  font-size: 18px;
 }
