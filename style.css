@@ -70,7 +70,6 @@ button:hover {
 /*TEXT BODY/CONTAINERS*/
 article {
   line-height: 1.5;
-  font-family: system-ui;
   font-size:22px;
   padding: .5em;    
   margin-right: 40px;
@@ -98,7 +97,6 @@ article {
 
 /*BANNERS*/
 .banner1 {
-  font-family: system-ui;
   font-size:50px;
   text-align: center;
   background: linear-gradient(90deg, 
