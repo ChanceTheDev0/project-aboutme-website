@@ -19,7 +19,7 @@
     }
 
     article {
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin-top: 0px;
         margin-left: 0px;
         margin-right: 0px;
@@ -78,7 +78,7 @@
         display: flex;
         flex-direction: column;
         height: 30rem;
-        font-size: 2rem;
+        font-size: 2.5rem;
         justify-content: center;
         justify-items: start;
         margin: 3rem;
@@ -87,7 +87,7 @@
     .button {
         display: flex;
         height: 40px;
-        width: 113px;
+        width: 10rem;
         background-color: rgb(255, 255, 255);
         border: 1px solid #000000;
         border-radius: 8px;
