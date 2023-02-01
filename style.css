@@ -151,7 +151,8 @@ article {
 }                        
  
 form {    /*CONTACT ME*/
-  display: grid;
+  display: flex;
+  flex-direction: column;
   height: 45vh;
   font-size: 22px;
   justify-content: center;

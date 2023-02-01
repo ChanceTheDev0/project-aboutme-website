@@ -58,4 +58,44 @@
     .certpics {
         display: flex;
     }  /*CERTS*/
+
+    footer {
+        margin-top: 10vh;
+        font-size: 1rem;
+    }
+
+    input {
+        width: 90vh;
+    }
+    
+    textarea {
+        width: 90vh;
+        height: 80vh;
+        
+    }
+
+    form {    
+        display: flex;
+        flex-direction: column;
+        height: 30rem;
+        font-size: 2rem;
+        justify-content: center;
+        justify-items: start;
+        margin: 3rem;
+    }
+
+    .button {
+        display: flex;
+        height: 40px;
+        width: 113px;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #000000;
+        border-radius: 8px;
+        padding: 2px;
+        color: rgb(0, 0, 0);
+        box-shadow: .2px .2px .2px #1c1d1c, -1px 2.5px 2px #050505;
+        letter-spacing: 1px;
+        font-size: 2rem;
+        margin-right: 1rem;
+      }
 }
