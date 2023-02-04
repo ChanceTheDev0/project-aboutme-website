@@ -7,15 +7,23 @@
     }
    
     button {
+        display: flex;
+        justify-content: center;
         margin-top: 20px;
         font-size: 1.7rem;
         height: auto;
+        width: auto;
     }
 
     button:hover {
         background-color: white;
         border: 1px solid black;
         color: black;   
+    }
+
+    #formbttn {
+        height: auto;
+        width: 105px;
     }
 
     article {
@@ -65,37 +73,21 @@
     }
 
     input {
-        width: 90vh;
+        width: 375px;
     }
     
     textarea {
-        width: 90vh;
-        height: 80vh;
-        
+        width: 375px;
+        height: 180px;
     }
 
     form {    
         display: flex;
         flex-direction: column;
-        height: 30rem;
+        height: 600px;
         font-size: 2.5rem;
         justify-content: center;
         justify-items: start;
         margin: 3rem;
     }
-
-    .button {
-        display: flex;
-        height: 40px;
-        width: 10.5rem;
-        background-color: rgb(255, 255, 255);
-        border: 1px solid #000000;
-        border-radius: 8px;
-        padding: 2px;
-        color: rgb(0, 0, 0);
-        box-shadow: .2px .2px .2px #1c1d1c, -1px 2.5px 2px #050505;
-        letter-spacing: 1px;
-        font-size: 2rem;
-        margin-right: 1rem;
-      }
 }
